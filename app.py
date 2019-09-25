@@ -6,7 +6,7 @@ app_server_name = 'app1'
 
 @app.route("/")
 def hello():
-    return '<h1>Hello from {} on server {}!</h1>'.format(app_instance_name, app_server_name)
+    return '<h1>Hello from {} on server {}!</h1><h2> App version : 2</h2>'.format(app_instance_name, app_server_name)
 
 @app.route("/health")
 def health():

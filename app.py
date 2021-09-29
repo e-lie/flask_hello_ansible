@@ -1,7 +1,7 @@
 from flask import Flask, jsonify
 app = Flask(__name__)
 
-app_instance_name = 'myapp'
+app_instance_name = 'appflask'
 app_server_name = 'app1'
 
 @app.route("/")
